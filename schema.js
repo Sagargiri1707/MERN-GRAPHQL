@@ -21,7 +21,7 @@ const LaunchType = new GraphQLObjectType({
             type: GraphQLInt
         },
         launch_date_local: {
-            type: GraphQLInt
+            type: GraphQLString
         },
         launch_success: {
             type: GraphQLBoolean
